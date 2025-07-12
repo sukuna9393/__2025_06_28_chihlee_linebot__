@@ -1,0 +1,8 @@
+{
+    "chat.mcp.enabled": true,
+    "chat.mcp.discovery.enabled": true,
+    "chat.mcp.serverSampling": [
+        "gpt-4",
+        "gpt-3.5-turbo"
+    ]
+}
