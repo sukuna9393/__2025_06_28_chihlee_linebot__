@@ -5,3 +5,6 @@ https://youtube.com/live/CN1Ud99FHDM
 https://youtube.com/live/IhlUEwWw-HA
 
 ---
+
+## 2025_07_19_早上
+https://www.youtube.com/watch?v=8byz2RGzH1c
