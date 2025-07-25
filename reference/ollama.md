@@ -69,8 +69,7 @@ chat_loop()
 這個結構更容易擴展為 Flask、Streamlit 等應用：
 
 ```python
-// filepath: /home/pi/Documents/GitHub/__2025_06_28_chihlee_linebot__/reference/ollama.md
-def generate_response(prompt: str, model: str = "gemma:2b") -> str:
+def generate_response(prompt: str, model: str = "gemma3:1b") -> str:
     url = "http://localhost:11434/api/generate"
     payload = {
         "model": model,
