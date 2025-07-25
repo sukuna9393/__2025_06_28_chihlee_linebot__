@@ -31,7 +31,7 @@ import requests
 def chat_with_ollama(prompt: str):
     url = "http://localhost:11434/api/generate"
     payload = {
-        "model": "gemma:2b",
+        "model": "gemma3:2b",
         "prompt": prompt,
         "stream": False
     }
