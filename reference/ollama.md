@@ -1,24 +1,31 @@
+# 本地端 LLM 教學範例
+
 學生體驗本地端 LLM 的應用。以下提供幾個教學用的 Python 範例，使用 requests 模組與 Ollama 本地 HTTP API 溝通。
 
-⸻
+---
 
-✅ 基礎前提
+## 基礎前提
 
-確保 Ollama 正在執行，並且模型已經被拉下來（例如：ollama run gemma:2b 已經執行過一次）
+- 確保 Ollama 正在執行，並且模型已經被拉下來（例如：ollama run gemma:1b 已經執行過一次）
+- Ollama API 預設會在 `http://localhost:11434` 提供服務。
 
-Ollama API 預設會在 http://localhost:11434 提供服務。
+---
 
-⸻
+## 安裝必要套件
 
-🔧 1. 安裝必要套件（如果還沒安裝）
+如果還沒安裝，請執行：
 
+```bash
+// filepath: /home/pi/Documents/GitHub/__2025_06_28_chihlee_linebot__/reference/ollama.md
 pip install requests
+```
 
+---
 
-⸻
+## 範例 1：發送基本對話請求給 Gemma 模型
 
-🧪 範例 1：發送基本對話請求給 Gemma 模型
-
+```python
+// filepath: /home/pi/Documents/GitHub/__2025_06_28_chihlee_linebot__/reference/ollama.md
 import requests
 
 def chat_with_ollama(prompt: str):
@@ -36,12 +43,14 @@ def chat_with_ollama(prompt: str):
 
 # 範例輸入
 chat_with_ollama("請用簡單的方式解釋什麼是Python的函式？")
+```
 
+---
 
-⸻
+## 範例 2：建立一個簡單的聊天互動（CLI 聊天機器人）
 
-🧪 範例 2：建立一個簡單的聊天互動（CLI 聊天機器人）
-
+```python
+// filepath: /home/pi/Documents/GitHub/__2025_06_28_chihlee_linebot__/reference/ollama.md
 def chat_loop():
     print("歡迎使用本地端 LLM 聊天機器人（輸入 q 離開）")
     while True:
@@ -51,14 +60,16 @@ def chat_loop():
         chat_with_ollama(user_input)
 
 chat_loop()
+```
 
+---
 
-⸻
-
-🧪 範例 3：包裝成函式，供 Web 或 GUI 使用
+## 範例 3：包裝成函式，供 Web 或 GUI 使用
 
 這個結構讓學生可以更容易擴展為 Flask、Streamlit 等應用：
 
+```python
+// filepath: /home/pi/Documents/GitHub/__2025_06_28_chihlee_linebot__/reference/ollama.md
 def generate_response(prompt: str, model: str = "gemma:2b") -> str:
     url = "http://localhost:11434/api/generate"
     payload = {
@@ -71,5 +82,6 @@ def generate_response(prompt: str, model: str = "gemma:2b") -> str:
         return response.json()["response"]
     except Exception as e:
         return f"錯誤：{e}"
+```
 
 
