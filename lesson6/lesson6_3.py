@@ -1,8 +1,7 @@
 import argparse
 import random
 
-def main():
-    playCount = 1
+def user_name_input():
     parser = argparse.ArgumentParser(description="猜數字遊戲")
     parser.add_argument("-n", "--name",type=str, help = "姓名")
     args = parser.parse_args()
@@ -11,6 +10,9 @@ def main():
         name = input("請輸入姓名:")
     else:
         name = args.name
+    return name
+
+def play_game(name):
     min = 1
     max = 100
     count = 0
@@ -46,6 +48,10 @@ def main():
         else:
             print("請輸入提示範圍內的數字\n")
 
+def main():
+    playCount = 1
+    name = user_name_input()
+    play_game(name)
     print(f"遊戲結束,{name}共玩了{playCount}次")
 
 if __name__ == "__main__":
