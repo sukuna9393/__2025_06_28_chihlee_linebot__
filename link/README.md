@@ -22,8 +22,15 @@ https://www.youtube.com/watch?v=bgpmvy_gbPo
 
 ---
 
+
+
 ## 2025_08_02_上午
 https://www.youtube.com/watch?v=-vfA_Jz5Zrk
 
 ## 2025_08_02_下午
 https://www.youtube.com/watch?v=-o9FCMFe_ZM
+
+---
+
+## 2025_08_09_上午
+https://www.youtube.com/watch?v=QS0CHVzTT5U
