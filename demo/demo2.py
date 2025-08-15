@@ -30,4 +30,4 @@ with gr.Blocks(title="Example") as demo:
         )
         return (None, f"## {input_str}\n" + response.text)
 
-demo.launch()
+demo.launch(share=True)
