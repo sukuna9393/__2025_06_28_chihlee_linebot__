@@ -40,5 +40,8 @@ https://www.youtube.com/watch?v=PdqAZNaJBRA
 
 ---
 
+## 2025_08_16_早上
+https://youtube.com/live/XRZgOCPL9uI
+
 ## 2025_08_16_下午
 https://www.youtube.com/watch?v=tfNwExmerDM
