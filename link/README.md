@@ -37,3 +37,8 @@ https://www.youtube.com/watch?v=QS0CHVzTT5U
 
 ## 2025_08_09_下午
 https://www.youtube.com/watch?v=PdqAZNaJBRA
+
+---
+
+## 2025_08_16_下午
+https://www.youtube.com/watch?v=tfNwExmerDM
