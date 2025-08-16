@@ -27,3 +27,5 @@ with gr.Blocks() as demo:
     @divide_button.click(inputs=[a, b], outputs=[c])
     def divide_numbers(a, b):
         return a / b
+
+demo.launch()
