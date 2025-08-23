@@ -1,5 +1,8 @@
-from flask import Flask,render_template_string
+from flask import Flask,render_template_string, request, jsonify
+from google import genai
+from dotenv import load_dotenv
 
+load_dotenv()
 app = Flask(__name__)
 
 @app.route("/")
@@ -58,3 +61,13 @@ def index():
     </html>
     '''
     return render_template_string(html)
+
+@app.route("/chat", methods=["POST"])
+def chat():
+    data = request.get_json()
+    question = data.get("question", "").strip()
+    if not question:
+        return jsonify({"error": "未輸入問題"}), 400
+    # Here you would typically process the question and generate a response
+    response = f"您問的是: {question}"
+    return jsonify({"text": response})
