@@ -50,3 +50,6 @@ https://www.youtube.com/watch?v=tfNwExmerDM
 
 ## 2025_08_23_早上
 https://www.youtube.com/watch?v=o6sgxfzpooA
+
+## 2025_08_23_下午
+https://www.youtube.com/watch?v=Gj1Zt1czEY0
